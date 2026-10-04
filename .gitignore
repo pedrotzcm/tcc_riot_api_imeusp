@@ -1,0 +1,18 @@
+.env
+__pycache__/
+*.py[cod]
+.venv/
+.venv-win/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+.claude/
+
+# Snapshots de dados (recomputaveis a partir do banco no hopper)
+data/
+*.parquet
+
+# Artigos de referencia (PDFs autorais/grandes)
+referencias/*.pdf
+
